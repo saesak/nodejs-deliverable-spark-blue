@@ -6,7 +6,7 @@ import DiceCard from './components/DiceCard.js'
 export default function App() {
 
     function getDiceRoll() {
-        Axios.get('http://localhost:5000')
+        Axios.get('http://localhost:3256')
         .then(function (response) {
             console.log('response successfully received, response below')
             console.log(response)
