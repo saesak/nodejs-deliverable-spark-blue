@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 })
 
 
-const port = 5000
+const port = 3256
 const host = 'localhost'
 app.listen(port, host, () => {
   console.log(`Example app listening on port ${port}`)
